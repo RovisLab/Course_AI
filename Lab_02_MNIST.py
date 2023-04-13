@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from torch import optim
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-batch_size = 16
+batch_size = 4
 learning_rate = 0.001
 num_epochs = 10
 
